@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+@use "tailwindcss";
+
+:root
+  /* Marca */
+  --p-primary-color: #3F3B18
+  --p-primary-hover-color: #6d28d9
+  --p-primary-active-color: #5b21b6
+  --p-primary-contrast-color: #ffffff
+  --p-primary-600: #3F3B18
+
+  /* Fondos */
+  --p-surface-0: #ffffff
+  --p-surface-50: #fafafa
+  --p-surface-100: #f4f4f5
+  --p-surface-200: #e4e4e7
+
+  /* Texto */
+  --p-text-color: #111827
+  --p-text-muted-color: #6b7280
+
+  /* Bordes */
+  --p-border-color: #A8B5AF
+
+  /* Focus */
+  --p-focus-ring-width: 2px
+  --p-focus-ring-style: solid
+  --p-focus-ring-color: color-mix(in srgb, var(--p-primary-color) 60%, transparent)
+  --p-focus-ring-offset: 1px
+
+  --p-form-field-label-color: #6b7280
+  /* Color cuando el input tiene foco */
+  --p-form-field-label-focus-color: var(--p-primary-color)
+
